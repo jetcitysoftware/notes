@@ -1,0 +1,23 @@
+{
+  "name": "notesy",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "notes": "notes.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.8.10",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-sequence": "^5.2.2"
+  },
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.1"
+  }
+}
